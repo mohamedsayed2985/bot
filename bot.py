@@ -2,9 +2,9 @@ import telegram
 from pytube import YouTube
 
 # تعريف مفاتيح التطبيق والتوكن الخاص بالبوت على تيليجرام
-APP_ID = <23526590>
-API_HASH = <a5be45f8b50b1e344fc575540beaa432>
-BOT_TOKEN = <6278390821:AAEvK8u64g8kADzjpBWRd70r8FD32Lzmmvc>
+APP_ID = "23526590"
+API_HASH = "a5be45f8b50b1e344fc575540beaa432" 
+BOT_TOKEN = "6278390821:AAEvK8u64g8kADzjpBWRd70r8FD32Lzmmvc"
 
 # تعريف دالة للتحميل من يوتيوب باستخدام pytube
 def download_video(video_url, filename):
